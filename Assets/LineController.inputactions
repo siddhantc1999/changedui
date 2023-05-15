@@ -1,0 +1,54 @@
+{
+    "name": "LineController",
+    "maps": [
+        {
+            "name": "LineControl",
+            "id": "e320ab6d-8ad1-4565-9413-183b73a58ce5",
+            "actions": [
+                {
+                    "name": "touchcontrol",
+                    "type": "Button",
+                    "id": "7099dab5-8bbe-4803-a397-5c17588ff94f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "mousecontrol",
+                    "type": "Button",
+                    "id": "e422745f-7898-4a27-a752-c42d61e4a522",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec0dbd0f-36ae-49fc-989e-23b98a6de414",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "touchcontrol",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e87154a8-8c91-4a3f-be4d-417b366be143",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mousecontrol",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
